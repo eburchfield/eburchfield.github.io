@@ -2,9 +2,20 @@ name: "emilys-website"
 output_dir: "."
 navbar:
   title: "Emily Burchfield"
+  subcategories:
+    subtitle: "Assistant Professor"
   left:
     - text: "Home"
       href: index.html
-    - text: "About"
-      href: about.html
+    - text: "Research"
+      href: research.html
+    - text: "Teaching"
+      href: teaching.html
+    - text: "Resources"
+      href: programming_resources.html
+      
+output:
+  html_document:
+    theme: flatly
+    css: style.css
    
