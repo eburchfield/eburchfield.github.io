@@ -1,5 +1,18 @@
 ---
-title:  "Teaching"
+title:  " "
 ---
 
-blah blah blah 
+<br />
+
+#### **Utah State University**
+
+At USU, I teach both an on-campus (GEOG49/6950) and online (NR6950) **Geospatial Analysis** course for advanced undergrads and graduate students interested in learning about spatial data sciences and the `R` programming language.  I also teach **Data Visualization** (GEOG3800), an undergraduate course focused on data literacy, an introduction to data science, and best practices in data visualization.  Last but not least, I teach ENVS 2000 which introduces first year students to the wonders of QCNR and ENVS. 
+
+I've shared all of the course material from Geospatial Analysis and Data Visualization (forthcoming) on the Programming Resources tab.
+
+***
+
+#### **Pre-USU**
+
+Prior to arriving at USU, I worked with Vanderbilt University's [SAVY](https://pty.vanderbilt.edu/pty/students/savy/) and [WAVU](https://pty.vanderbilt.edu/pty/students/wavu/) programs and taught very smart middle and high-schoolers about socio-environmental systems and geospatial analysis.  Before that I had the pleasure of teaching French teenagers the English language in Toulouse, France.
+

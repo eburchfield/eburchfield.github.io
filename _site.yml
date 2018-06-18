@@ -2,18 +2,23 @@ name: "emilys-website"
 output_dir: "."
 navbar:
   title: "Emily Burchfield"
-  subcategories:
-    subtitle: "Assistant Professor"
   left:
-    - text: "Home"
-      href: index.html
     - text: "Research"
       href: research.html
     - text: "Teaching"
       href: teaching.html
     - text: "Resources"
       href: programming_resources.html
+    - text: "Prospective students"
+      href: prospective_students.html
+
       
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: http://github.com/eburchfield
+  
 output:
   html_document:
     theme: flatly

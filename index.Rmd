@@ -1,11 +1,14 @@
 ---
-title:  ""
+title:  "  "
 ---
 
-I am an Assistant Professor in the [Department of Environment and Society](https://qcnr.usu.edu/envs/) at Utah State University where I study agricultural adaptation to changing climate.  
+<img src="./pics/Burchfield_head_shot.jpg" style="width:25%; border:1px solid; margin-right: 20px" align="left">
 
-I completed my a dual-undergraduate degree in Economics at Clemson University and the Université Catholique de Louvain, Belgium, where I also completed a Masters in Economics in 2012.  After my masters, I moved to Vanderbilt University where I completed a Ph.D. in Environmental Engineering in 2017.
+
+My research integrates social and environmental data to understand the distributional consequences of changing climate on humans and the environment. I rely heavily on geospatial programming and analysis, but also integrate survey and qualitative data.  My current research focuses on future food and water security in in the United States and the impact of landscape on agricultural production.
+
+I am an Assistant Professor in the [Department of Environment and Society](https://qcnr.usu.edu/envs/) at Utah State University.  I am an associate of the [USU Ecology Center](https://ecology.usu.edu/) and a member of the [Climate Adaptation Science Program](https://climateadaptation.usu.edu/) at USU.
+
+My full CV is available [here](files/Burchfield_CV.pdf) and Google Scholar page [here.](https://scholar.google.com/citations?user=G-fs5tsAAAAJ&hl=en)
 
 You can contact me at [emily.burchfield@usu.edu](mailto:emily.burchfield@usu.edu).
-
-![](./pics/Burchfield_head_shot.jpg)
