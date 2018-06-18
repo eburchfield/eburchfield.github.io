@@ -1,5 +1,15 @@
 ---
-title:  "About me"
+title:  "Research"
 ---
 
-blah blah blah 
+## Current Projects
+
+_Test that this is bold_
+
+* See what this looks like
+* Another bullet point
+
+
+## Published Research 
+
+blah blah blah, list of research here, blah blah...
