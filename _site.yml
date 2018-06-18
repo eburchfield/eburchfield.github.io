@@ -1,0 +1,10 @@
+name: "emilys-website"
+output_dir: "."
+navbar:
+  title: "Emily Burchfield"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+   
