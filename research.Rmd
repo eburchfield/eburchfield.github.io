@@ -31,7 +31,10 @@ title:  "  "
 
 ## Published Research 
 
-* **Burchfield, E.**, Williams, N., Carrico, A. (2018). Rescaling drought mitigation in rural Sri Lanka.  *Regional Environmental Change*, *In press.*
+* Tozier de la Poterie, A., **Burchfield, E.**, Carrico, A. (2018). The implications
+ of group norms for adaptation in collectively-managed agricultural
+ systems: evidence from Sri Lankan Paddy farmers.  *Ecology and Society*, Accepted.
+* **Burchfield, E.**, Williams, N., Carrico, A. (2018). [Rescaling drought mitigation in rural Sri Lanka.](https://link.springer.com/article/10.1007/s10113-018-1374-y), *Regional Environmental Change*, 1-9.  
 * **Burchfield, E.**, Tozier de la Poterie, A. (2018).  [Determinants of crop diversifictaion in rice-dominated Sri Lankan agricultural systems.](https://www.sciencedirect.com/science/article/pii/S0743016717311671)  *Journal of Rural Studies*, *In press.*  
 * Nay, J., **Burchfield, E.**, Gilligan, J. (2018).  [A machine learning approach to forecasting remotely sensed vegetation health.](https://www.tandfonline.com/doi/pdf/10.1080/01431161.2017.1410296?needAccess=true)  *International Journal of Remote Sensing*,  *39*(6), 1800 – 1816.  Check out the project website [here.](http://johnjnay.com/forecastVeg/)
 * Nelson, K., **Burchfield, E.** (2017).  [Effects of the Structure of Water Rights on Agricultural Production During Drought: A Spatio-temporal Analysis of California’s Central Valley.](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2017WR020666)  *Water Resources Research*, *53*(10), 8293 – 8309. 
