@@ -21,6 +21,17 @@ Below are some of the labs we cover in my Geospatial Analysis course at USU.  If
 * [Interpolation](files/Interpolation_LAB.html)
 
 ***
+#### **Data Visualization**
+
+Below are some of the tutorials from an undergraduate Data Visualization course taught at USU.  They are a great resource for students interested in learning the ways of ggplot!
+
+* [A gentle introduction to `ggplot2`](files/Intro_to_ggplot_TUTORIAL.html)
+* [Visualizing distributions](files/Violin_plots.html)
+* [Visualizing relationships](files/Scatter.html)
+* [Visualizing quantities](files/Color_bar_plot.html)
+* [Visualizing change through time](files/Time_series_visualizations.html)
+
+***
 #### **Miscellaneous** 
 
 * [Scraping text from a PDF in `R`](files/scraping_text_from_pdf_in_r.pdf)
