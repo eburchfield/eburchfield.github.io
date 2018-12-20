@@ -7,7 +7,7 @@ title:  " "
 
 #### **Geospatial Analysis in R** 
 
-Below are the labs we cover in my Geospatial Analysis course at USU.  If you start working through them and want to play with the actual data, just shoot me [an email](mailto:emily.burchfield@usu.edu) and I'll send the data your way.  I welcome and encourage feedback and comments on these tutorials!
+Below are the labs we cover in my Geospatial Analysis course at USU.  If you start working through them and want to play with the actual data, just shoot me [an email](mailto:emily.burchfield@usu.edu) and I'll send the data your way.  I welcome and encourage feedback and comments on these tutorials!  
 
 * [Data wrangling with `dplyr`](files/2_describing_data_lab.html)
 * [Data visualization with `ggplot`](files/3_viz_lab.html)
@@ -15,16 +15,10 @@ Below are the labs we cover in my Geospatial Analysis course at USU.  If you sta
 * [An introduction to spatial data in `R`](files/5_spatial_intro_lab.html) (Note: this tutorial covers the `sp` package.  A new tutorial on the `sf` package is coming soon!)
 * [Working with rasters in `R`](files/6_rasters_lab.html)
 * [Merging spatial data](files/7_spatial_data_int_lab.html)
-* [Making awesome maps in `R`](files/Maps_in_R.html)
 * [Analyzing polygon data](files/Areal_data_LAB.html)
 * [Spatial regression 101](files/Spatial_regression_LAB.html)
 * [Point pattern analysis](files/Point_pattern_LAB.html)
 * [Interpolation](files/Interpolation_LAB.html)
-
-***
-#### **Data Visualization**
-
-Stay tuned!  Expect updates by the end of the Fall 2018 semester.
 
 ***
 #### **Miscellaneous** 

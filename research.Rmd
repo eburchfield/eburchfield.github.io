@@ -21,11 +21,6 @@ title:  "  "
 
 * Spatially explicit projections of yield and cultivated extent for major crops in the United States.
 
-#### Moulouya Water Conservation
-
-* *Funded by the [Borlaug Food Security Graduate Student Fellowship](https://www.fas.usda.gov/programs/borlaug-fellowship-program)*
-* This project investigates the relationship between irrigation pond adoption and water conservation outcomes in the Moulouya River Basin of northeastern Morocco.
-
 ***
 
 
