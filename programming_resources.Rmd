@@ -7,7 +7,7 @@ title:  " "
 
 #### **Geospatial Analysis in R** 
 
-Below are the labs we cover in my Geospatial Analysis course at USU.  If you start working through them and want to play with the actual data, just shoot me [an email](mailto:emily.burchfield@usu.edu) and I'll send the data your way.  I welcome and encourage feedback and comments on these tutorials!  
+Below are some of the labs we cover in my Geospatial Analysis course at USU.  If you start working through them and want to play with the actual data, just shoot me [an email](mailto:emily.burchfield@usu.edu) and I'll send the data your way.  I welcome and encourage feedback and comments on these tutorials.  Labs will be updated and expanded regularly, so check back often!
 
 * [Data wrangling with `dplyr`](files/2_describing_data_lab.html)
 * [Data visualization with `ggplot`](files/3_viz_lab.html)
