@@ -17,9 +17,14 @@ title:  "  "
 * *Funded by the [Utah Agricultrual Experiment Station](https://uaes.usu.edu/)*
 * Identification of the shared characteristics of agricultural systems showing resilience to extreme heat and water stress over the last 30 years in the continental United States.  
 
-#### Future yield and cultivated area 
+#### Predicting and preparing for future cropscapes
 
-* Spatially explicit projections of yield and cultivated extent for major crops in the United States.
+* Generation of spatially explicit projections of yield and cultivated extent for major crops in the United States.
+* Identify and support regions of major agricultural transition.
+
+#### Drivers of farmer decision-making
+
+* Qualitative interviews assessing the multiscalar factors that affect cultivation decisions and conservation behavior at the farm- and landscape scale.
 
 ***
 
@@ -30,7 +35,7 @@ title:  "  "
  of group norms for adaptation in collectively-managed agricultural
  systems: evidence from Sri Lankan Paddy farmers.  *Ecology and Society*, *23*(3):21. [https://doi.org/10.5751/ES-10175-230321](https://doi.org/10.5751/ES-10175-230321)
 * **Burchfield, E.**, Williams, N., Carrico, A. (2018). [Rescaling drought mitigation in rural Sri Lanka.](https://link.springer.com/article/10.1007/s10113-018-1374-y), *Regional Environmental Change*, 1-9.  
-* **Burchfield, E.**, Tozier de la Poterie, A. (2018).  [Determinants of crop diversifictaion in rice-dominated Sri Lankan agricultural systems.](https://www.sciencedirect.com/science/article/pii/S0743016717311671)  *Journal of Rural Studies*, *In press.*  
+* **Burchfield, E.**, Tozier de la Poterie, A. (2018).  [Determinants of crop diversifictaion in rice-dominated Sri Lankan agricultural systems.](https://www.sciencedirect.com/science/article/pii/S0743016717311671)  *Journal of Rural Studies*, *61*, 206-215.
 * Nay, J., **Burchfield, E.**, Gilligan, J. (2018).  [A machine learning approach to forecasting remotely sensed vegetation health.](https://www.tandfonline.com/doi/pdf/10.1080/01431161.2017.1410296?needAccess=true)  *International Journal of Remote Sensing*,  *39*(6), 1800 - 1816.  Check out the project website [here.](http://johnjnay.com/forecastVeg/)
 * Nelson, K., **Burchfield, E.** (2017).  [Effects of the Structure of Water Rights on Agricultural Production During Drought: A Spatio-temporal Analysis of California's Central Valley.](https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1002/2017WR020666)  *Water Resources Research*, *53*(10), 8293 - 8309. 
 * **Burchfield, E.**, Gilligan, J. (2016). [Agricultural adaptation to drought in the Sri Lankan dry zone.](https://www.sciencedirect.com/science/article/pii/S0143622816306063) *Applied Geography*, *77*, 92-100.
