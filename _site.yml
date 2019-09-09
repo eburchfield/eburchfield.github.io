@@ -1,7 +1,7 @@
 name: "emilys-website"
 output_dir: "."
 navbar:
-  title: "Emily Burchfield"
+  title: "Dr. Emily Burchfield"
   left:
     - text: "Research"
       href: research.html
