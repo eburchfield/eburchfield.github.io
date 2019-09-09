@@ -7,7 +7,7 @@ navbar:
       href: research.html
     - text: "Teaching"
       href: teaching.html
-    - text: "Resources"
+    - text: "Programming resources"
       href: programming_resources.html
     - text: "BURCH-lab members"
       href: BURCHlab.html
