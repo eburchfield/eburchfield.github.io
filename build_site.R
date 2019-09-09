@@ -1,3 +1,3 @@
-setwd("/Users/emily.burchfield/Documents/git/eburchfield.github.io")
+setwd("C:/Users/eburchf/OneDrive - Emory University/git/eburchfield.github.io")
 rmarkdown::render_site()
 

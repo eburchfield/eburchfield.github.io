@@ -9,6 +9,8 @@ navbar:
       href: teaching.html
     - text: "Resources"
       href: programming_resources.html
+    - text: "BURCH-lab members"
+      href: BURCHLAB.html
     - text: "Prospective students"
       href: prospective_students.html
 
