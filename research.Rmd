@@ -31,7 +31,8 @@ title:  "  "
 
 ## Published Research 
 
-* **Burchfield, E.**, Nelson, K. Spangler, K. (2019). The impact of agricultural diversification on U.S. crop production. Agriculture, Ecosystems & Environment. 285:106615. [https://doi.org/10.1016/j.agee.2019.106615](https://doi.org/10.1016/j.agee.2019.106615)
+* **Burchfield, E.**, Matthews-Pennanen, N., Schoof, J., Lant, C. (2019). Changing yields in the central U.S. under cliamte and technological change. *Climatic Change*, *In press*. Pre-print available [here](files/Burchfield_FY_preprint.pdf).
+* **Burchfield, E.**, Nelson, K. Spangler, K. (2019). The impact of agricultural diversification on U.S. crop production. *Agriculture, Ecosystems & Environment.* 285:106615. [https://doi.org/10.1016/j.agee.2019.106615](https://doi.org/10.1016/j.agee.2019.106615). Pre-print available [here](files/Burchfield_SDI_preprint.pdf)]
 * Tozier de la Poterie, A., **Burchfield, E.**, Carrico, A. (2018). The implications
  of group norms for adaptation in collectively-managed agricultural
  systems: evidence from Sri Lankan Paddy farmers.  *Ecology and Society*, *23*(3):21. [https://doi.org/10.5751/ES-10175-230321](https://doi.org/10.5751/ES-10175-230321)
