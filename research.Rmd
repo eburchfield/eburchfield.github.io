@@ -28,6 +28,11 @@ title:  "  "
 
 ***
 
+## Coming soon!
+
+* Spangler, K., **Burchfield, E.**, Schumacher, B. Past and current dynamics of agricultural land use and policy. *Under review*
+* **Burchfield, E.**, Schumacher, B. Bright spots in U.S. agriculture. *Under review*
+
 ## Published Research 
 
 * **Burchfield, E.**, Matthews-Pennanen, N., Schoof, J., Lant, C. (2019). Changing yields in the central U.S. under climate and technological change. *Climatic Change*, *In press*. Pre-print available [here](files/Burchfield_FY_preprint.pdf).
@@ -43,3 +48,4 @@ title:  "  "
 * **Burchfield, E.**, Gilligan, J. (2016).  [Dynamics of individual and collective agricultural adaptation to water scarcity.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2807452)  *Winter Simulation Conference 2016 Proceedings.*
 * **Burchfield, E.**, Nay, J., Gilligan, J. (2016).  [Application of machine learning to prediction of vegetation health.](https://www.int-arch-photogramm-remote-sens-spatial-inf-sci.net/XLI-B2/465/2016/isprs-archives-XLI-B2-465-2016.pdf)  *The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences.*  XLI-B2, 465-469, doi:10.5194/isprs-archives-XLI-B2-465-2016.
 * Gunda, T., Benneyworth, L., **Burchfield, E.** (2015).  [Exploring water indices and associated parameters: A case study approach](http://web.b.ebscohost.com/abstract?direct=true&profile=ehost&scope=site&authtype=crawler&jrnl=13667017&AN=100841573&h=KAR6SkiZ6aGgJxGIn0te5H3G7yE9tPmpddCL5wLWUYiKEYtijePz4RumHNNwI%2bkj%2bc9IxBQO0ytLM5lJensL3A%3d%3d&crl=f&resultNs=AdminWebAuth&resultLocal=ErrCrlNotAuth&crlhashurl=login.aspx%3fdirect%3dtrue%26profile%3dehost%26scope%3dsite%26authtype%3dcrawler%26jrnl%3d13667017%26AN%3d100841573), *Water Policy*, *17*(1), 98 - 111.
+
