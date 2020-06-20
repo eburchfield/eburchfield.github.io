@@ -1,0 +1,173 @@
+---
+title: Mapping protest
+author: Dr. Emily Burchfield
+date: '2020-06-17'
+slug: mapping-protest
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-06-17T20:46:45-04:00'
+featured: yes
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+Thanks to the [Data is Plural listserv](https://tinyletter.com/data-is-plural), I discovered an [incredible dataset](https://countlove.org/faq.html).  The website documents protests since 2017, tagging protest using a typology that could be very powerful for visualization (e.g. "Civil Rights", "For Racial Justice", "Police", etc...).  The dataset includes `Location` for each protest (descriptive string) but not coordinates.  Here's a script I built that can be used to link the original `Location` to coordinates and a few plots of the data.
+
+# Credit and Inspiration
+
+* Thank you Open Street Map for making things easy and free.  More on how to query OSM can be found [here](https://nominatim.org/release-docs/develop/api/Search/).
+* Thanks to [this post on StackExchange](https://stackoverflow.com/questions/13905098/how-to-get-the-longitude-and-latitude-coordinates-from-a-city-name-and-country-i) that gave essential clues about working with OSM in R.
+* Most of all, WOW, thanks to the [CountLove team](https://countlove.org/faq.html).  What an awesome dataset.
+
+# What you'll need
+
+```{r message=F, warning=F}
+library(tidyverse)
+library(sf)
+library(RJSONIO) # if you want to use OSM
+library(lubridate) # this remains the worst package name ever
+```
+
+# Clean the data
+
+Load the original data downloaded [here](https://countlove.org/faq.html):
+
+```{r message=F, warning=F, echo=F}
+states <- readRDS("C:/Users/eburchf/OneDrive - Emory University/Data/SHP/National/states_sf.RDS") %>% 
+  filter(!STATE_ABBR %in% c("HI", "AK"))  # Coterm only to make plotting easier
+states <- st_transform(states, 4326) 
+```
+
+```{r}
+p <- read.csv("./data/protests.csv") %>% 
+  select(-c("Event..legacy..see.tags."))
+glimpse(p)
+```
+
+Let's pull out the distinct `Locations` in the dataset and clean things up so we can transform CITYNAME, STATE into actual coordinates using :heart:[OpenStreetMap](https://www.openstreetmap.org/#map=5/38.007/-95.844):heart: :
+
+```{r eval=F}
+cities <- distinct(p, Location)
+cities$Location <- as.character(cities$Location)
+cities$State <- trimws(toupper(substr(cities$Location, nchar(cities$Location) - 2, nchar(cities$Location))))
+
+# filter Cuidad Juarez, Mexico, Space (LOL), and Guam
+cities <- cities %>% 
+  filter(!State %in% c("ICO", "ACE", "GU")) 
+```
+
+Space, hahaha, Nice.  Ok, now let's deal with the fact that some place names are longer than CITY, STATE, e.g. CLEMSON UNIVERSITY, CLEMSON, SC.^[On a personal note, [way to go alma mater!](https://www.theguardian.com/us-news/2020/jun/13/clemson-john-c-calhoun-slavery-honors-college)  It's about time!]
+
+```{r eval=F}
+cities$NC <- apply(cities, 1, function(x) length(unlist(strsplit(x[1], ","))))
+cities$City <- NA
+cities$City[cities$NC > 2] <- apply(cities, 1, function(x) unlist(strsplit(x[1], ","))[2])[cities$NC > 2]
+cities$City[cities$NC == 2] <- apply(cities, 1, function(x) unlist(strsplit(x[1], ","))[1])[cities$NC == 2]
+cities$City <- trimws(toupper(cities$City))
+```
+
+Now that we have a clean list of cities (`City`) and states (`State`), we can download coordinates^[Assuming city centroid here?] for each city using OpenStreetMap and the `RJSONIO` package.  **Note**: this takes awhile to run!
+
+```{r eval=F}
+nrow <- nrow(cities)
+counter <- 1
+cities$lon[counter] <- 0
+cities$lat[counter] <- 0
+while (counter <= nrow){
+  
+  CityName <- cities$City[counter]
+  CountryCode <- "US"
+  StateName <- cities$State[counter]
+  url <- paste(
+    "http://nominatim.openstreetmap.org/search?city="
+    , CityName
+    , "&state="
+    , StateName
+    , "&countrycodes="
+    , CountryCode
+    , "&limit=9&format=json"
+    , sep="")
+  x <- fromJSON(url)
+  if(is.vector(x)){
+    cities$lon[counter] <- x[[1]]$lon
+    cities$lat[counter] <- x[[1]]$lat    
+  }
+  counter <- counter + 1
+}
+```
+
+Let's merge cities back with our full protest dataset and clean things up for plotting JOY.
+
+```{r eval=F}
+pcm <- merge(cities, p, by = "Location", all = T) 
+
+# I like to break down date into smaller pieces to help me group and visualize in interesting ways so...
+pcm$Date <- as.Date(pcm$Date, "%Y-%m-%d")
+pcm <- pcm %>% mutate(Year = year(Date),
+                      Day = day(Date),
+                      Month = month(Date),
+                      DOY = yday(Date))
+# some cleaning 
+protests <- pcm %>% 
+  filter(State %in% unique(states$STATE_ABBR)) %>% # drops Guam, Space, Mexico, AK, HI
+  distinct() %>% # checks for repeats
+  filter(!is.na(lon), !is.na(lat)) %>% # drops coords that didn't work
+  filter(lon != 0)  # note that this drops lots of protests, so have to go manually check for complete accurary
+glimpse(protests)
+```
+
+```{r echo=F}
+protests <- readRDS("./data/protests.RDS")
+glimpse(protests)
+```
+Houston we have coordinates!  Note that some of the cities were not geocoded with OSM.  I didn't have the time to manually check these, but you'd want to do that prior to using this for anything serious.
+
+# Visualizations
+
+```{r echo=F, message=F, warning=F}
+library(ggthemes)
+state_count <- protests %>%
+  filter(Year == 2020, Month %in% 4:7) %>%
+  group_by(State) %>%
+  count()
+
+sc <- merge(states, state_count, by.x = "STATE_ABBR", by.y = "State", all = T) %>% 
+  filter(!STATE_ABBR %in% c("HI", "AK")) 
+
+ggplot(sc) +
+  geom_sf(aes(fill = n)) +
+  theme_map() +
+  labs(fill = "Number of protests",
+       title = "Protests across the US, Summer 2020") 
+```
+
+```{r echo=F, message=F, warning=F}
+# make p spatial
+psf <- st_as_sf(protests, 
+                   coords = c("lon", "lat"), 
+                   crs = 4326)
+
+coords <- st_coordinates(psf)
+ggplot() +
+  geom_sf(data = states, fill = "transparent", color = "gray") +
+  geom_point(data = psf, aes(x = coords[,1],
+                             y = coords[,2], color = Attendees), 
+             alpha = 0.10, size = 1) +
+  scale_color_continuous(low = "#E1C699", high = "#C0500C", na.value = "grey50", aesthetics = "color") +
+  theme_map() +
+  labs(title = "Protests in database")
+
+
+```
+
+# Other relevant datasets and resources
+
+1. [The Green Book](https://digital.library.sc.edu/collections/the-negro-travelers-green-book-1956/)
+2. [Confederate Monuments](https://docs.google.com/spreadsheets/d/17ps4aqRyaIfpu7KdGsy2HRZaaQiXUfLrpUbaR9yS51E/edit#gid=222998983)
+3. Visualizations using the data [here](https://www.nytimes.com/interactive/2020/06/13/us/george-floyd-protests-cities-photos.html) and [here](https://countlove.org/statistics.html)
