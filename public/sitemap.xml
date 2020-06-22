@@ -3,218 +3,270 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://emilyburchfield.github.io/</loc>
+    <loc>/courses/data_viz/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/eds/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/gsa/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/_talk/example/</loc>
+    <loc>/_talk/example/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/_talk/</loc>
+    <loc>/_talk/</loc>
     <lastmod>2030-06-01T13:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/blog/</loc>
+    <loc>/blog/</loc>
     <lastmod>2020-06-17T20:46:45-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/blog/mapping-protest/</loc>
+    <loc>/blog/mapping-protest/</loc>
     <lastmod>2020-06-17T20:46:45-04:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/publication-type/2/</loc>
+    <loc>/publication-type/2/</loc>
     <lastmod>2019-12-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/tag/agricultural-adaptation/</loc>
+    <loc>/tag/agricultural-adaptation/</loc>
     <lastmod>2019-12-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/authors/</loc>
+    <loc>/authors/</loc>
     <lastmod>2019-12-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/publication/2019_cc/</loc>
+    <loc>/publication/2019_cc/</loc>
     <lastmod>2019-12-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/author/christopher-lant/</loc>
+    <loc>/author/christopher-lant/</loc>
     <lastmod>2019-12-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/author/dr.-emily-burchfield/</loc>
+    <loc>/author/dr.-emily-burchfield/</loc>
     <lastmod>2019-12-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/tag/future-cropscapes/</loc>
+    <loc>/tag/future-cropscapes/</loc>
     <lastmod>2019-12-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/author/justin-schoof/</loc>
+    <loc>/author/justin-schoof/</loc>
     <lastmod>2019-12-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/author/neil-matthews-pennanen/</loc>
+    <loc>/author/neil-matthews-pennanen/</loc>
     <lastmod>2019-12-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/tag/projection/</loc>
+    <loc>/tag/projection/</loc>
     <lastmod>2019-12-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/publication_types/</loc>
+    <loc>/publication_types/</loc>
     <lastmod>2019-12-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/publication/</loc>
+    <loc>/publication/</loc>
     <lastmod>2019-12-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2019-12-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/tag/yield/</loc>
+    <loc>/tag/yield/</loc>
     <lastmod>2019-12-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/tag/agricultural-diversity/</loc>
+    <loc>/tag/agricultural-diversity/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/tag/agroecology/</loc>
+    <loc>/tag/agroecology/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/tag/cdl/</loc>
+    <loc>/tag/cdl/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/author/kaitlyn-spangler/</loc>
+    <loc>/author/kaitlyn-spangler/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/author/kate-nelson/</loc>
+    <loc>/author/kaltiyn-spangler/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/publication/2019_aee/</loc>
+    <loc>/author/kate-nelson/</loc>
     <lastmod>2019-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/tag/adaptation/</loc>
+    <loc>/publication/2019_aee/</loc>
+    <lastmod>2019-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/adaptation/</loc>
     <lastmod>2019-06-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/project/diversity/</loc>
+    <loc>/project/diversity/</loc>
     <lastmod>2019-06-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/tag/agricultural-diversiy/</loc>
+    <loc>/tag/agricultural-diversiy/</loc>
     <lastmod>2019-06-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/tag/climate-change/</loc>
+    <loc>/tag/climate-change/</loc>
     <lastmod>2019-06-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/tag/drought/</loc>
+    <loc>/tag/drought/</loc>
     <lastmod>2019-06-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/project/cropscapes/</loc>
+    <loc>/project/cropscapes/</loc>
     <lastmod>2019-06-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/tag/future-yield/</loc>
+    <loc>/tag/future-yield/</loc>
     <lastmod>2019-06-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/tag/irrigation/</loc>
+    <loc>/tag/irrigation/</loc>
     <lastmod>2019-06-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/project/</loc>
+    <loc>/project/</loc>
     <lastmod>2019-06-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/project/sri_lanka/</loc>
+    <loc>/project/sri_lanka/</loc>
     <lastmod>2019-06-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/tag/sri-lanka/</loc>
+    <loc>/tag/sri-lanka/</loc>
     <lastmod>2019-06-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/tag/usda/</loc>
+    <loc>/tag/usda/</loc>
     <lastmod>2019-06-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/_slides/</loc>
+    <loc>/_slides/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/_slides/example/</loc>
+    <loc>/_slides/example/</loc>
     <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/author/britta-schumacher/</loc>
+    <loc>/courses/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/categories/</loc>
+    <loc>/tag/courses/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/courses/</loc>
+    <loc>/tag/data-science/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/prospective/</loc>
+    <loc>/tag/data-visualization/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://emilyburchfield.github.io/author/kaltiyn-spangler/</loc>
+    <loc>/tag/geospatial-analysis/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/ggplot2/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/r/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tag/tidyverse/</loc>
+    <lastmod>2018-09-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/author/britta-schumacher/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/prospective/</loc>
   </url>
   
 </urlset>

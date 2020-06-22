@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories | Emily Burchfield</title>
-    <link>https://emilyburchfield.github.io/categories/</link>
-      <atom:link href="https://emilyburchfield.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <link>/categories/</link>
+      <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     <description>Categories</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
     <image>
-      <url>https://emilyburchfield.github.io/img/Burchfield_head_shot.jpg</url>
+      <url>/img/Burchfield_head_shot.jpg</url>
       <title>Categories</title>
-      <link>https://emilyburchfield.github.io/categories/</link>
+      <link>/categories/</link>
     </image>
     
   </channel>
