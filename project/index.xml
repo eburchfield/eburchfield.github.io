@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Emily Burchfield</title>
-    <link>https://emilyburchfield.github.io/project/</link>
-      <atom:link href="https://emilyburchfield.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>/project/</link>
+      <atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 27 Jun 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://emilyburchfield.github.io/img/Burchfield_head_shot.jpg</url>
+      <url>/img/Burchfield_head_shot.jpg</url>
       <title>Projects</title>
-      <link>https://emilyburchfield.github.io/project/</link>
+      <link>/project/</link>
     </image>
     
     <item>
       <title>Agricultural Diversity</title>
-      <link>https://emilyburchfield.github.io/project/diversity/</link>
+      <link>/project/diversity/</link>
       <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://emilyburchfield.github.io/project/diversity/</guid>
+      <guid>/project/diversity/</guid>
       <description>&lt;p&gt;Simplification of global landscapes, driven by the expansion and intensification of agriculture, has provided immediate gains for agricultural production, but also degraded beneficial ecosystem processes that support continued agricultural production. There is field-scale evidence of land use diversity&amp;rsquo;s positive impacts on ecosystem health and agricultural production. However, the impacts of land use diversity at landscape scales, at which land use interacts with biophysical phenomena and human activities, is not well understood.&lt;/p&gt;
 &lt;p&gt;Our goal is to provide solutions for sustainable agriculture by characterizing how and why landscape simplification affects ecosystem health and agricultural productivity and by identifying barriers to landscape diversification.&lt;/p&gt;
 &lt;p&gt;This project is funded by GRANT INFORMATION.  Other folks on the grant are 
@@ -27,31 +27,31 @@
 &lt;li&gt;Spangler, K., &lt;strong&gt;Burchfield, E.&lt;/strong&gt;, Schumacher, B. (2019) Past and current dynamics of US agricultural land use and policy. In press at &lt;em&gt;Frontiers in Sustainable Food Systems.&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Burchfield, E.&lt;/strong&gt;, Nelson, K., Spangler, K. (2019).  The impact of agricultural diversification on U.S. crop production. &lt;em&gt;Agriculture, Ecosystems &amp;amp; Environment.&lt;/em&gt; &lt;em&gt;285&lt;/em&gt; 106615. 
 &lt;a href=&#34;https://doi.org/10.1016/j.agee.2019.106615&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1016/j.agee.2019.106615&lt;/a&gt;.  Preprint available
-&lt;a href=&#34;https://emilyburchfield.github.io/files/Burchfield_SDI_preprint.pdf&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;a href=&#34;/files/Burchfield_SDI_preprint.pdf&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Future Cropscapes</title>
-      <link>https://emilyburchfield.github.io/project/cropscapes/</link>
+      <link>/project/cropscapes/</link>
       <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://emilyburchfield.github.io/project/cropscapes/</guid>
+      <guid>/project/cropscapes/</guid>
       <description>&lt;p&gt;Future changes in climate will significantly transform US agriculture both through changes in &lt;em&gt;production&lt;/em&gt; and the &lt;em&gt;production geography&lt;/em&gt; of many crops.Through iterative participatory modeling, this project will generate productions of future production geographies of major crops cultivated in the Central and Eastern US under multiple stakeholder-generated scenarios of climatic and sociotechnical change.&lt;/p&gt;
 &lt;h2 id=&#34;publications&#34;&gt;Publications&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Burchfield, E.&lt;/strong&gt;, Matthews-Pennanen, N., Stoebner, J., Lant, C. (2019).  Changing yields in the Central United States under climate and technological change. &lt;em&gt;Climatic Change&lt;/em&gt;, &lt;em&gt;159&lt;/em&gt;, 329-346. 
 &lt;a href=&#34;https://doi.org/10.1007/s10584-019-02567-7&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1007/s10584-019-02567-7&lt;/a&gt;. Preprint available 
-&lt;a href=&#34;https://emilyburchfield.github.io/files/Burchfield_FY_preprint.pdf&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
+&lt;a href=&#34;/files/Burchfield_FY_preprint.pdf&#34;&gt;here&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Smallholder Adaptation to Drought</title>
-      <link>https://emilyburchfield.github.io/project/sri_lanka/</link>
+      <link>/project/sri_lanka/</link>
       <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://emilyburchfield.github.io/project/sri_lanka/</guid>
+      <guid>/project/sri_lanka/</guid>
       <description>&lt;p&gt;Small-scale farmers in the Global South are among the most vulnerable to climate change. Our research aims to gain a better understanding of how farmers in Sri Lanka, in particular, are adjusting their practices to deal with climate change effects. Since 2010, researchers from Vanderbilt University&amp;rsquo;s Institute for Energy and Environment (VIEE) have partnered with the National Building Research Organization (NBRO) in Sri Lanka to examine the connections between agricultural adaptation and climate change in the dry zone of Sri Lanka.  To learn more about the larger project (Agricultural Decision Making and Adaptation to Precipitation Trends in Sri Lanka or ADAPT-SL), please visit the main project website 
 &lt;a href=&#34;https://my.vanderbilt.edu/srilankaproject/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.  You can check out the &lt;code&gt;forecastVeg&lt;/code&gt; tool made by Dr. Burchfield and Dr. Nay 
 &lt;a href=&#34;http://johnjnay.com/forecastVeg/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;

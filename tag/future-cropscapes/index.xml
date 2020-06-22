@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Future Cropscapes | Emily Burchfield</title>
-    <link>https://emilyburchfield.github.io/tag/future-cropscapes/</link>
-      <atom:link href="https://emilyburchfield.github.io/tag/future-cropscapes/index.xml" rel="self" type="application/rss+xml" />
+    <link>/tag/future-cropscapes/</link>
+      <atom:link href="/tag/future-cropscapes/index.xml" rel="self" type="application/rss+xml" />
     <description>Future Cropscapes</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 09 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://emilyburchfield.github.io/img/Burchfield_head_shot.jpg</url>
+      <url>/img/Burchfield_head_shot.jpg</url>
       <title>Future Cropscapes</title>
-      <link>https://emilyburchfield.github.io/tag/future-cropscapes/</link>
+      <link>/tag/future-cropscapes/</link>
     </image>
     
     <item>
       <title>Changing yields in the central US under climate and technological change</title>
-      <link>https://emilyburchfield.github.io/publication/2019_cc/</link>
+      <link>/publication/2019_cc/</link>
       <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>https://emilyburchfield.github.io/publication/2019_cc/</guid>
+      <guid>/publication/2019_cc/</guid>
       <description></description>
     </item>
     
