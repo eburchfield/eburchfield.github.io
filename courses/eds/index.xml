@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Environmental Data Science | Emily Burchfield</title>
+    <link>/courses/eds/</link>
+      <atom:link href="/courses/eds/index.xml" rel="self" type="application/rss+xml" />
+    <description>Environmental Data Science</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 09 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/Burchfield_head_shot.jpg</url>
+      <title>Environmental Data Science</title>
+      <link>/courses/eds/</link>
+    </image>
+    
+  </channel>
+</rss>

@@ -1,0 +1,147 @@
+---
+title: Mapping protest
+author: Dr. Emily Burchfield
+date: '2020-06-17'
+slug: mapping-protest
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-06-17T20:46:45-04:00'
+featured: yes
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+
+<p>Thanks to the <a href="https://tinyletter.com/data-is-plural">Data is Plural listserv</a>, I discovered an <a href="https://countlove.org/faq.html">incredible dataset</a>. The website documents protests since 2017, tagging protest using a typology that could be very powerful for visualization (e.g. “Civil Rights”, “For Racial Justice”, “Police”, etc…). The dataset includes <code>Location</code> for each protest (descriptive string) but not coordinates. Here’s a script I built that can be used to link the original <code>Location</code> to coordinates and a few plots of the data.</p>
+<div id="credit-and-inspiration" class="section level1">
+<h1>Credit and Inspiration</h1>
+<ul>
+<li>Thank you Open Street Map for making things easy and free. More on how to query OSM can be found <a href="https://nominatim.org/release-docs/develop/api/Search/">here</a>.</li>
+<li>Thanks to <a href="https://stackoverflow.com/questions/13905098/how-to-get-the-longitude-and-latitude-coordinates-from-a-city-name-and-country-i">this post on StackExchange</a> that gave essential clues about working with OSM in R.</li>
+<li>Most of all, WOW, thanks to the <a href="https://countlove.org/faq.html">CountLove team</a>. What an awesome dataset.</li>
+</ul>
+</div>
+<div id="what-youll-need" class="section level1">
+<h1>What you’ll need</h1>
+<pre class="r"><code>library(tidyverse)
+library(sf)
+library(RJSONIO) # if you want to use OSM
+library(lubridate) # this remains the worst package name ever</code></pre>
+</div>
+<div id="clean-the-data" class="section level1">
+<h1>Clean the data</h1>
+<p>Load the original data downloaded <a href="https://countlove.org/faq.html">here</a>:</p>
+<pre class="r"><code>p &lt;- read.csv(&quot;./data/protests.csv&quot;) %&gt;% 
+  select(-c(&quot;Event..legacy..see.tags.&quot;))
+glimpse(p)</code></pre>
+<pre><code>## Rows: 27,038
+## Columns: 7
+## $ Date           &lt;fct&gt; 2017-01-15, 2017-01-16, 2017-01-16, 2017-01-16, 2017...
+## $ Location       &lt;fct&gt; &quot;Bowie State University, Bowie, MD&quot;, &quot;Johnson City, ...
+## $ Attendees      &lt;int&gt; 1500, 300, 20, NA, 300, NA, NA, NA, 100, 2450, 1200,...
+## $ Tags           &lt;fct&gt; &quot;Healthcare; For Affordable Care Act&quot;, &quot;Civil Rights...
+## $ Curated        &lt;fct&gt; Yes, Yes, Yes, Yes, Yes, Yes, No, Yes, Yes, Yes, Yes...
+## $ Source         &lt;fct&gt; &quot;http://www.capitalgazette.com/news/ph-ac-cn-aca-ral...
+## $ Total.Articles &lt;int&gt; 1, 4, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1, 1, 2, 1, 1, 1, 1...</code></pre>
+<p>Let’s pull out the distinct <code>Locations</code> in the dataset and clean things up so we can transform CITYNAME, STATE into actual coordinates using :heart:<a href="https://www.openstreetmap.org/#map=5/38.007/-95.844">OpenStreetMap</a>:heart: :</p>
+<pre class="r"><code>cities &lt;- distinct(p, Location)
+cities$Location &lt;- as.character(cities$Location)
+cities$State &lt;- trimws(toupper(substr(cities$Location, nchar(cities$Location) - 2, nchar(cities$Location))))
+
+# filter Cuidad Juarez, Mexico, Space (LOL), and Guam
+cities &lt;- cities %&gt;% 
+  filter(!State %in% c(&quot;ICO&quot;, &quot;ACE&quot;, &quot;GU&quot;)) </code></pre>
+<p>Space, hahaha, Nice. Ok, now let’s deal with the fact that some place names are longer than CITY, STATE, e.g. CLEMSON UNIVERSITY, CLEMSON, SC.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
+<pre class="r"><code>cities$NC &lt;- apply(cities, 1, function(x) length(unlist(strsplit(x[1], &quot;,&quot;))))
+cities$City &lt;- NA
+cities$City[cities$NC &gt; 2] &lt;- apply(cities, 1, function(x) unlist(strsplit(x[1], &quot;,&quot;))[2])[cities$NC &gt; 2]
+cities$City[cities$NC == 2] &lt;- apply(cities, 1, function(x) unlist(strsplit(x[1], &quot;,&quot;))[1])[cities$NC == 2]
+cities$City &lt;- trimws(toupper(cities$City))</code></pre>
+<p>Now that we have a clean list of cities (<code>City</code>) and states (<code>State</code>), we can download coordinates<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a> for each city using OpenStreetMap and the <code>RJSONIO</code> package. <strong>Note</strong>: this takes awhile to run!</p>
+<pre class="r"><code>nrow &lt;- nrow(cities)
+counter &lt;- 1
+cities$lon[counter] &lt;- 0
+cities$lat[counter] &lt;- 0
+while (counter &lt;= nrow){
+  
+  CityName &lt;- cities$City[counter]
+  CountryCode &lt;- &quot;US&quot;
+  StateName &lt;- cities$State[counter]
+  url &lt;- paste(
+    &quot;http://nominatim.openstreetmap.org/search?city=&quot;
+    , CityName
+    , &quot;&amp;state=&quot;
+    , StateName
+    , &quot;&amp;countrycodes=&quot;
+    , CountryCode
+    , &quot;&amp;limit=9&amp;format=json&quot;
+    , sep=&quot;&quot;)
+  x &lt;- fromJSON(url)
+  if(is.vector(x)){
+    cities$lon[counter] &lt;- x[[1]]$lon
+    cities$lat[counter] &lt;- x[[1]]$lat    
+  }
+  counter &lt;- counter + 1
+}</code></pre>
+<p>Let’s merge cities back with our full protest dataset and clean things up for plotting JOY.</p>
+<pre class="r"><code>pcm &lt;- merge(cities, p, by = &quot;Location&quot;, all = T) 
+
+# I like to break down date into smaller pieces to help me group and visualize in interesting ways so...
+pcm$Date &lt;- as.Date(pcm$Date, &quot;%Y-%m-%d&quot;)
+pcm &lt;- pcm %&gt;% mutate(Year = year(Date),
+                      Day = day(Date),
+                      Month = month(Date),
+                      DOY = yday(Date))
+# some cleaning 
+protests &lt;- pcm %&gt;% 
+  filter(State %in% unique(states$STATE_ABBR)) %&gt;% # drops Guam, Space, Mexico, AK, HI
+  distinct() %&gt;% # checks for repeats
+  filter(!is.na(lon), !is.na(lat)) %&gt;% # drops coords that didn&#39;t work
+  filter(lon != 0)  # note that this drops lots of protests, so have to go manually check for complete accurary
+glimpse(protests)</code></pre>
+<pre><code>## Rows: 26,452
+## Columns: 15
+## $ Location       &lt;chr&gt; &quot;26 Federal Plaza, New York, NY&quot;, &quot;A. B. Miller High...
+## $ State          &lt;chr&gt; &quot;NY&quot;, &quot;CA&quot;, &quot;NC&quot;, &quot;FL&quot;, &quot;WI&quot;, &quot;LA&quot;, &quot;LA&quot;, &quot;LA&quot;, &quot;IL&quot;...
+## $ City           &lt;chr&gt; &quot;NEW YORK&quot;, &quot;FONTANA&quot;, &quot;KANNAPOLIS&quot;, &quot;JACKSONVILLE&quot;,...
+## $ lon            &lt;chr&gt; &quot;-74.0060152&quot;, &quot;-117.435048&quot;, &quot;-80.621438&quot;, &quot;-81.655...
+## $ lat            &lt;chr&gt; &quot;40.7127281&quot;, &quot;34.0922335&quot;, &quot;35.4874708&quot;, &quot;30.332183...
+## $ Date           &lt;date&gt; 2018-06-18, 2018-03-14, 2018-03-14, 2018-03-14, 201...
+## $ Attendees      &lt;int&gt; NA, 150, NA, NA, 40, 250, 70, NA, NA, 75, 40, 25, 30...
+## $ Tags           &lt;fct&gt; &quot;Immigration; For compassionate immigration; Familie...
+## $ Curated        &lt;fct&gt; Yes, Yes, Yes, Yes, Yes, Yes, Yes, No, Yes, Yes, No,...
+## $ Source         &lt;fct&gt; http://newyork.cbslocal.com/2018/06/18/rally-illegal...
+## $ Total.Articles &lt;int&gt; 1, 1, 2, 1, 1, 6, 1, 1, 1, 2, 1, 1, 2, 2, 1, 1, 1, 1...
+## $ Year           &lt;dbl&gt; 2018, 2018, 2018, 2018, 2018, 2018, 2018, 2020, 2018...
+## $ Day            &lt;int&gt; 18, 14, 14, 14, 14, 11, 15, 5, 14, 14, 6, 24, 18, 31...
+## $ Month          &lt;dbl&gt; 6, 3, 3, 3, 3, 1, 1, 5, 3, 3, 5, 3, 9, 5, 5, 6, 5, 5...
+## $ DOY            &lt;dbl&gt; 169, 73, 73, 73, 73, 11, 15, 126, 73, 73, 126, 83, 2...</code></pre>
+<p>Houston we have coordinates! Note that some of the cities were not geocoded with OSM. I didn’t have the time to manually check these, but you’d want to do that prior to using this for anything serious.</p>
+</div>
+<div id="visualizations" class="section level1">
+<h1>Visualizations</h1>
+<p><img src="/blog/2020-06-17-mapping-protest_files/figure-html/unnamed-chunk-9-1.png" width="672" /></p>
+<p><img src="/blog/2020-06-17-mapping-protest_files/figure-html/unnamed-chunk-10-1.png" width="672" /></p>
+</div>
+<div id="other-relevant-datasets-and-resources" class="section level1">
+<h1>Other relevant datasets and resources</h1>
+<ol style="list-style-type: decimal">
+<li><a href="https://digital.library.sc.edu/collections/the-negro-travelers-green-book-1956/">The Green Book</a></li>
+<li><a href="https://docs.google.com/spreadsheets/d/17ps4aqRyaIfpu7KdGsy2HRZaaQiXUfLrpUbaR9yS51E/edit#gid=222998983">Confederate Monuments</a></li>
+<li>Visualizations using the data <a href="https://www.nytimes.com/interactive/2020/06/13/us/george-floyd-protests-cities-photos.html">here</a> and <a href="https://countlove.org/statistics.html">here</a></li>
+</ol>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>On a personal note, <a href="https://www.theguardian.com/us-news/2020/jun/13/clemson-john-c-calhoun-slavery-honors-college">way to go alma mater!</a> It’s about time!<a href="#fnref1" class="footnote-back">↩</a></p></li>
+<li id="fn2"><p>Assuming city centroid here?<a href="#fnref2" class="footnote-back">↩</a></p></li>
+</ol>
+</div>

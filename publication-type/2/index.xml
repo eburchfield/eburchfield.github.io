@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2 | Emily Burchfield</title>
+    <link>https://emilyburchfield.github.io/publication-type/2/</link>
+      <atom:link href="https://emilyburchfield.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
+    <description>2</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 09 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://emilyburchfield.github.io/img/Burchfield_head_shot.jpg</url>
+      <title>2</title>
+      <link>https://emilyburchfield.github.io/publication-type/2/</link>
+    </image>
+    
+    <item>
+      <title>Changing yields in the central US under climate and technological change</title>
+      <link>https://emilyburchfield.github.io/publication/2019_cc/</link>
+      <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
+      <guid>https://emilyburchfield.github.io/publication/2019_cc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The impact of agricultural landscape diversification on US crop production</title>
+      <link>https://emilyburchfield.github.io/publication/2019_aee/</link>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>https://emilyburchfield.github.io/publication/2019_aee/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
