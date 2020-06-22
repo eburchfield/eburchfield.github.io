@@ -1,25 +1,29 @@
-#!/bin/sh
-
-# If a command fails then the deploy stops
-set -e
-
-printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
-
-# Build the project.
-hugo -t hugo-academic # if using a theme, replace with `hugo -t <YOURTHEME>`
-
-# Go To Public folder
-cd public
-
-# Add changes to git.
-git add .
-
-# Commit changes.
-msg="rebuilding site $(date)"
-if [ -n "$*" ]; then
-	msg="$*"
-fi
-git commit -m "$msg"
-
-# Push source and build repos.
-git push origin master
+#!/usr/bin/env bash
+# This script allows you to easily and quickly generate and deploy your website
+# using Hugo to your personal GitHub Pages repository. This script requires a
+# certain configuration, run the `setup.sh` script to configure this. See
+# https://hjdskes.github.io/blog/deploying-hugo-on-personal-github-pages/index.html
+# for more information.
+# Set the English locale for the `date` command.
+export LC_TIME=en_US.UTF-8
+# GitHub username.
+USERNAME=eburchfield
+# Name of the branch containing the Hugo source files.
+SOURCE=sources
+# The commit message.
+MESSAGE="Site rebuild $(date)"
+msg() {
+    printf "\033[1;32m :: %s\n\033[0m" "$1"
+}
+msg "Pulling down the \`master\` branch into \`public\` to help avoid merge conflicts"
+git subtree pull --prefix=public \
+    git@github.com:$USERNAME/$USERNAME.github.io.git origin master -m "Merge origin master"
+msg "Building the website"
+hugo
+msg "Pushing the updated \`public\` folder to the \`$SOURCE\` branch"
+git add public
+git commit -m "$MESSAGE"
+git push origin "$SOURCE"
+msg "Pushing the updated \`public\` folder to the \`master\` branch"
+git subtree push --prefix=public \
+    git@github.com:$USERNAME/$USERNAME.github.io.git master
