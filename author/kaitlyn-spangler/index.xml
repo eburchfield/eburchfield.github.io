@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kaitlyn Spangler | Emily Burchfield</title>
-    <link>/author/kaitlyn-spangler/</link>
-      <atom:link href="/author/kaitlyn-spangler/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://eburchfield.github.io/author/kaitlyn-spangler/</link>
+      <atom:link href="https://eburchfield.github.io/author/kaitlyn-spangler/index.xml" rel="self" type="application/rss+xml" />
     <description>Kaitlyn Spangler</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Sep 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/Burchfield_head_shot.jpg</url>
+      <url>https://eburchfield.github.io/img/Burchfield_head_shot.jpg</url>
       <title>Kaitlyn Spangler</title>
-      <link>/author/kaitlyn-spangler/</link>
+      <link>https://eburchfield.github.io/author/kaitlyn-spangler/</link>
     </image>
     
     <item>
       <title>The impact of agricultural landscape diversification on US crop production</title>
-      <link>/publication/2019_aee/</link>
+      <link>https://eburchfield.github.io/publication/2019_aee/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/2019_aee/</guid>
+      <guid>https://eburchfield.github.io/publication/2019_aee/</guid>
       <description></description>
     </item>
     

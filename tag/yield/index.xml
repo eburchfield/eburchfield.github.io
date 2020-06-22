@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yield | Emily Burchfield</title>
-    <link>/tag/yield/</link>
-      <atom:link href="/tag/yield/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://eburchfield.github.io/tag/yield/</link>
+      <atom:link href="https://eburchfield.github.io/tag/yield/index.xml" rel="self" type="application/rss+xml" />
     <description>Yield</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 09 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/Burchfield_head_shot.jpg</url>
+      <url>https://eburchfield.github.io/img/Burchfield_head_shot.jpg</url>
       <title>Yield</title>
-      <link>/tag/yield/</link>
+      <link>https://eburchfield.github.io/tag/yield/</link>
     </image>
     
     <item>
       <title>Changing yields in the central US under climate and technological change</title>
-      <link>/publication/2019_cc/</link>
+      <link>https://eburchfield.github.io/publication/2019_cc/</link>
       <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/2019_cc/</guid>
+      <guid>https://eburchfield.github.io/publication/2019_cc/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The impact of agricultural landscape diversification on US crop production</title>
-      <link>/publication/2019_aee/</link>
+      <link>https://eburchfield.github.io/publication/2019_aee/</link>
       <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/2019_aee/</guid>
+      <guid>https://eburchfield.github.io/publication/2019_aee/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Agricultural Diversity</title>
-      <link>/project/diversity/</link>
+      <link>https://eburchfield.github.io/project/diversity/</link>
       <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/project/diversity/</guid>
+      <guid>https://eburchfield.github.io/project/diversity/</guid>
       <description>&lt;p&gt;Simplification of global landscapes, driven by the expansion and intensification of agriculture, has provided immediate gains for agricultural production, but also degraded beneficial ecosystem processes that support continued agricultural production. There is field-scale evidence of land use diversity&amp;rsquo;s positive impacts on ecosystem health and agricultural production. However, the impacts of land use diversity at landscape scales, at which land use interacts with biophysical phenomena and human activities, is not well understood.&lt;/p&gt;
 &lt;p&gt;Our goal is to provide solutions for sustainable agriculture by characterizing how and why landscape simplification affects ecosystem health and agricultural productivity and by identifying barriers to landscape diversification.&lt;/p&gt;
 &lt;p&gt;This project is funded by GRANT INFORMATION.  Other folks on the grant are 
@@ -43,7 +43,7 @@
 &lt;li&gt;Spangler, K., &lt;strong&gt;Burchfield, E.&lt;/strong&gt;, Schumacher, B. (2019) Past and current dynamics of US agricultural land use and policy. In press at &lt;em&gt;Frontiers in Sustainable Food Systems.&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Burchfield, E.&lt;/strong&gt;, Nelson, K., Spangler, K. (2019).  The impact of agricultural diversification on U.S. crop production. &lt;em&gt;Agriculture, Ecosystems &amp;amp; Environment.&lt;/em&gt; &lt;em&gt;285&lt;/em&gt; 106615. 
 &lt;a href=&#34;https://doi.org/10.1016/j.agee.2019.106615&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1016/j.agee.2019.106615&lt;/a&gt;.  Preprint available
-&lt;a href=&#34;/files/Burchfield_SDI_preprint.pdf&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;a href=&#34;https://eburchfield.github.io/files/Burchfield_SDI_preprint.pdf&#34;&gt;here&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

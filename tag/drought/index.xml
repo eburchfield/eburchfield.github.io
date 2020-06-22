@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Drought | Emily Burchfield</title>
-    <link>/tag/drought/</link>
-      <atom:link href="/tag/drought/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://eburchfield.github.io/tag/drought/</link>
+      <atom:link href="https://eburchfield.github.io/tag/drought/index.xml" rel="self" type="application/rss+xml" />
     <description>Drought</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 27 Jun 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/Burchfield_head_shot.jpg</url>
+      <url>https://eburchfield.github.io/img/Burchfield_head_shot.jpg</url>
       <title>Drought</title>
-      <link>/tag/drought/</link>
+      <link>https://eburchfield.github.io/tag/drought/</link>
     </image>
     
     <item>
       <title>Smallholder Adaptation to Drought</title>
-      <link>/project/sri_lanka/</link>
+      <link>https://eburchfield.github.io/project/sri_lanka/</link>
       <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>/project/sri_lanka/</guid>
+      <guid>https://eburchfield.github.io/project/sri_lanka/</guid>
       <description>&lt;p&gt;Small-scale farmers in the Global South are among the most vulnerable to climate change. Our research aims to gain a better understanding of how farmers in Sri Lanka, in particular, are adjusting their practices to deal with climate change effects. Since 2010, researchers from Vanderbilt University&amp;rsquo;s Institute for Energy and Environment (VIEE) have partnered with the National Building Research Organization (NBRO) in Sri Lanka to examine the connections between agricultural adaptation and climate change in the dry zone of Sri Lanka.  To learn more about the larger project (Agricultural Decision Making and Adaptation to Precipitation Trends in Sri Lanka or ADAPT-SL), please visit the main project website 
 &lt;a href=&#34;https://my.vanderbilt.edu/srilankaproject/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.  You can check out the &lt;code&gt;forecastVeg&lt;/code&gt; tool made by Dr. Burchfield and Dr. Nay 
 &lt;a href=&#34;http://johnjnay.com/forecastVeg/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;&lt;/p&gt;

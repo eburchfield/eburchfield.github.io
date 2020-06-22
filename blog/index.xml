@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog | Emily Burchfield</title>
-    <link>/blog/</link>
-      <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://eburchfield.github.io/blog/</link>
+      <atom:link href="https://eburchfield.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <description>Blog</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 17 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/Burchfield_head_shot.jpg</url>
+      <url>https://eburchfield.github.io/img/Burchfield_head_shot.jpg</url>
       <title>Blog</title>
-      <link>/blog/</link>
+      <link>https://eburchfield.github.io/blog/</link>
     </image>
     
     <item>
       <title>Mapping protest</title>
-      <link>/blog/mapping-protest/</link>
+      <link>https://eburchfield.github.io/blog/mapping-protest/</link>
       <pubDate>Wed, 17 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>/blog/mapping-protest/</guid>
+      <guid>https://eburchfield.github.io/blog/mapping-protest/</guid>
       <description>
 
 
@@ -128,8 +128,8 @@ glimpse(protests)&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;div id=&#34;visualizations&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Visualizations&lt;/h1&gt;
-&lt;p&gt;&lt;img src=&#34;/blog/2020-06-17-mapping-protest_files/figure-html/unnamed-chunk-9-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/blog/2020-06-17-mapping-protest_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eburchfield.github.io/blog/2020-06-17-mapping-protest_files/figure-html/unnamed-chunk-9-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://eburchfield.github.io/blog/2020-06-17-mapping-protest_files/figure-html/unnamed-chunk-10-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;other-relevant-datasets-and-resources&#34; class=&#34;section level1&#34;&gt;
 &lt;h1&gt;Other relevant datasets and resources&lt;/h1&gt;
