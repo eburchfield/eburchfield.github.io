@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Christopher Lant | Emily Burchfield</title>
-    <link>/author/christopher-lant/</link>
-      <atom:link href="/author/christopher-lant/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://eburchfield.github.io/author/christopher-lant/</link>
+      <atom:link href="https://eburchfield.github.io/author/christopher-lant/index.xml" rel="self" type="application/rss+xml" />
     <description>Christopher Lant</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 09 Dec 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/Burchfield_head_shot.jpg</url>
+      <url>https://eburchfield.github.io/img/Burchfield_head_shot.jpg</url>
       <title>Christopher Lant</title>
-      <link>/author/christopher-lant/</link>
+      <link>https://eburchfield.github.io/author/christopher-lant/</link>
     </image>
     
     <item>
       <title>Changing yields in the central US under climate and technological change</title>
-      <link>/publication/2019_cc/</link>
+      <link>https://eburchfield.github.io/publication/2019_cc/</link>
       <pubDate>Mon, 09 Dec 2019 00:00:00 +0000</pubDate>
-      <guid>/publication/2019_cc/</guid>
+      <guid>https://eburchfield.github.io/publication/2019_cc/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks | Emily Burchfield</title>
-    <link>/_talk/</link>
-      <atom:link href="/_talk/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://eburchfield.github.io/_talk/</link>
+      <atom:link href="https://eburchfield.github.io/_talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/Burchfield_head_shot.jpg</url>
+      <url>https://eburchfield.github.io/img/Burchfield_head_shot.jpg</url>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>/_talk/</link>
+      <link>https://eburchfield.github.io/_talk/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>/_talk/example/</link>
+      <link>https://eburchfield.github.io/_talk/example/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>/_talk/example/</guid>
+      <guid>https://eburchfield.github.io/_talk/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
