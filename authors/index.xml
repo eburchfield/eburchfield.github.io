@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Emily Burchfield</title>
+    <link>https://emilyburchfield.github.io/authors/</link>
+      <atom:link href="https://emilyburchfield.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 09 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://emilyburchfield.github.io/img/Burchfield_head_shot.jpg</url>
+      <title>Authors</title>
+      <link>https://emilyburchfield.github.io/authors/</link>
+    </image>
+    
+  </channel>
+</rss>
