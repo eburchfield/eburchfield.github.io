@@ -1,3 +1,14 @@
 ---
-site: blogdown:::blogdown_site
+title:  "  "
 ---
+
+<img src="./pics/Burchfield_head_shot.jpg" style="width:25%; border:1px solid; margin-right: 20px" align="left">
+
+
+My research integrates social and environmental data to understand the distributional consequences of changing climate on humans and the environment. I rely heavily on geospatial programming and analysis, but also integrate survey and qualitative data.  My current research focuses on future food and water security in the United States and the role of diversification in agricultural production.
+
+I am thrilled to announce that as of August 2019, I have joined the faculty of the [Department of Environmental Sciences](http://envs.emory.edu/home/) at Emory University!
+
+My full CV is available [here](files/Burchfield_CV.pdf) and Google Scholar page [here.](https://scholar.google.com/citations?user=G-fs5tsAAAAJ&hl=en)
+
+You can contact me at [emily.burchfield@emory.edu](mailto:emily.burchfield@emory.edu).

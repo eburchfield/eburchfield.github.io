@@ -7,12 +7,11 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title>index.utf8</title>
+<title></title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -23,8 +22,6 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -73,7 +70,9 @@ h6 {
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 
+</head>
 
+<body>
 
 <style type = "text/css">
 .main-container {
@@ -87,6 +86,7 @@ code {
 }
 img {
   max-width:100%;
+  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -191,6 +191,8 @@ $(document).ready(function () {
 });
 </script>
 
+<div class="container-fluid main-container">
+
 <!-- tabsets -->
 
 <style type="text/css">
@@ -247,17 +249,20 @@ $(document).ready(function () {
 }
 </style>
 
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
 <!-- code folding -->
 
-
-
-
-</head>
-
-<body>
-
-
-<div class="container-fluid main-container">
 
 
 
@@ -270,7 +275,7 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Dr. Emily Burchfield</a>
+      <a class="navbar-brand" href="index.html">Emily Burchfield</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
@@ -281,10 +286,7 @@ $(document).ready(function () {
   <a href="teaching.html">Teaching</a>
 </li>
 <li>
-  <a href="programming_resources.html">Programming resources</a>
-</li>
-<li>
-  <a href="BURCHlab.html">BURCH-lab members</a>
+  <a href="programming_resources.html">Resources</a>
 </li>
 <li>
   <a href="prospective_students.html">Prospective students</a>
@@ -316,11 +318,10 @@ $(document).ready(function () {
 </div>
 
 
-<p><img src="pics/Burchfield_head_shot.jpg" style="width:25%; border:1px solid; margin-right: 20px" align="left"></p>
-<p>My research integrates social and environmental data to understand the distributional consequences of changing climate on humans and the environment. I rely heavily on geospatial programming and analysis, but also integrate survey and qualitative data. My current research focuses on future food and water security in the United States and the role of diversification in agricultural production.</p>
-<p>I am thrilled to announce that as of August 2019, I have joined the faculty of the <a href="http://envs.emory.edu/home/">Department of Environmental Sciences</a> at Emory University!</p>
-<p>My full CV is available <a href="files/Burchfield_CV.pdf">here</a> and Google Scholar page <a href="https://scholar.google.com/citations?user=G-fs5tsAAAAJ&amp;hl=en">here.</a></p>
-<p>You can contact me at <a href="mailto:emily.burchfield@emory.edu">emily.burchfield@emory.edu</a>.</p>
+<div id="eburchfield.github.io" class="section level1">
+<h1>eburchfield.github.io</h1>
+<p>RMD docs for my personal website</p>
+</div>
 
 
 
@@ -339,23 +340,6 @@ $(document).ready(function () {
 
 
 </script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

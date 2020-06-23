@@ -1,0 +1,22 @@
+---
+title:  " "
+---
+
+<br />
+
+#### **Emory University**
+
+At Emory, I will teach Environmental Data Science, Environmental Economics, and a Sustainable Food Systems course.  Stay tuned for more information on these classes!
+
+***
+
+#### **Utah State University**
+
+At USU, I taught both an on-campus (GEOG49/6950) and online (NR6950) **Geospatial Analysis** course for advanced undergrads and graduate students interested in learning about spatial data science and the `R` programming language.  I also taught **Data Visualization** (GEOG3800), an undergraduate course focused on data literacy, data science, and best practices in data visualization.  Course materials are available on the Resources tab.
+
+***
+
+#### **Pre-USU**
+
+Prior to arriving at USU, I worked with Vanderbilt University's [SAVY](https://pty.vanderbilt.edu/pty/students/savy/) and [WAVU](https://pty.vanderbilt.edu/pty/students/wavu/) programs and taught gifted middle and high-schoolers about socio-environmental systems and geospatial analysis.  Before that I had the pleasure of teaching French teenagers the English language in Toulouse, France.
+
